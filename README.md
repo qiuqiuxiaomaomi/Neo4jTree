@@ -1,6 +1,8 @@
 # Neo4jTree
 图数据库
 
+![](https://i.imgur.com/Z9ject0.png)
+
 <pre>
 CREATE 
  (p1:Person {name:'胡兴炯', born:1991, interest:'mac,ios,旅游', goodat:'java,swift,objectiveC'}),
@@ -55,6 +57,8 @@ CREATE
  (p10)-[:认识]->(p9),
  (p10)-[:同事]->(p7)
 </pre>
+
+![](https://i.imgur.com/ZdQ1Pu0.png)
 
 <pre>
 CREATE
